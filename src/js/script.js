@@ -48,7 +48,7 @@ botaoScanear.onclick = async ()=>{
             'por' // idioma do texto
         );
         const textoFinal = text.trim();
-        resultado.innerText = textoFinal.length > 0 ? textoFinal : "Não possivel capturar o texto";
+        resultado.innerText = textoFinal.length > 0 ? textoFinal : "Não possivel capturar o texto!";
     }catch(erro){
         console.error(erro);
         resultado.innerText = "Erro no Processamento", erro;
